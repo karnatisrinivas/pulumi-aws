@@ -14,4 +14,4 @@ jobs:
     - name: Terraform Plan
       run: echo ${{ vars.AWS_REGION_LOCAL }}
     - name: Test
-      run: echo ${{ secrets.AWS_REGION_LOCAL }}
+      run: echo ${{ secrets.AWS_REGION }}
